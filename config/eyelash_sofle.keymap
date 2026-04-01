@@ -91,11 +91,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3         &kp F4             &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9            &kp F10            &trans
-&trans      &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3   &kp NUMBER_4       &kp N5             &mmv MOVE_DOWN   &kp NUMBER_6     &kp N7           &kp N8      &kp N9            &kp N0             &trans
-&trans      &kp LC(LS(D))    &kp F9          &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &kp F3             &mmv MOVE_LEFT   &kp PG_DN        &kp MINUS        &kp EQUAL   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &kp F7         &kp F8             &kp PRINTSCREEN    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11           &kp F12            &trans
-&kp C_MUTE  &trans           &trans          &trans         &trans             &trans             &mkp LCLK        &trans           &trans           &trans      &trans            &trans
+&kp GRAVE   &kp F1           &kp F2          &kp F3         &kp F4             &kp F5             &mmv MOVE_UP     &kp F6        &kp F7     &kp F8     &kp F9            &kp F10            &trans
+&trans      &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3   &kp NUMBER_4       &kp N5             &mmv MOVE_DOWN   &kp NUMBER_6  &kp N7     &kp N8     &kp N9            &kp N0             &trans
+&trans      &kp LC(LS(D))    &kp F9          &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &kp F3             &mmv MOVE_LEFT   &trans        &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &kp F7         &kp F8             &kp PRINTSCREEN    &mmv MOVE_RIGHT  &trans        &trans     &trans     &trans            &trans             &trans
+&kp C_MUTE  &trans           &trans          &trans         &trans             &trans             &mkp LCLK        &trans        &trans     &trans     &trans            &trans
             >;
 
             display-name = "layer1";
